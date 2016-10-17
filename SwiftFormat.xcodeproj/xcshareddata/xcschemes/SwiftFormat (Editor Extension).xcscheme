@@ -17,7 +17,7 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "90C4B6DC1DA4B059009EB000"
                BuildableName = "SwiftFormat.appex"
-               BlueprintName = "Xcode Source Editor Extension"
+               BlueprintName = "Editor Extension"
                ReferencedContainer = "container:SwiftFormat.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -49,7 +49,7 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "90C4B6DC1DA4B059009EB000"
             BuildableName = "SwiftFormat.appex"
-            BlueprintName = "Xcode Source Editor Extension"
+            BlueprintName = "Editor Extension"
             ReferencedContainer = "container:SwiftFormat.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

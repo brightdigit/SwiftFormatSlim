@@ -34,7 +34,7 @@ import XcodeKit
 
 class FormatSelectedSourceCommand: NSObject, XCSourceEditorCommand {
 
-    func perform(with invocation: XCSourceEditorCommandInvocation, completionHandler: @escaping(Error?) -> Void) -> Void {
+    func perform(with invocation: XCSourceEditorCommandInvocation, completionHandler: @escaping (Error?) -> Void) -> Void {
         guard invocation.buffer.contentUTI == "public.swift-source" else {
             return completionHandler(FormatCommandError.notSwiftLanguage)
         }
